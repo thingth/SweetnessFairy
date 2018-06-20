@@ -237,7 +237,7 @@ public class TextController : MonoBehaviour {
     void house_2B()
     {
         gametxt.text = "Your grandmother bring out a tray of fortune cookies. \n" +
-                        "\"Please take one\" she tells you with gentle smile." +
+                        "\"Please take one\" she tells you with gentle smile. \n" +
                         "A) Eat one with beautiful golden color \n" +
                         "B) Eat one with slightly burn on the border";
 
@@ -359,7 +359,7 @@ public class TextController : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-            currentLocation = location.forest_0;
+            currentLocation = location.forest_1;
         }
         else if (Input.GetKeyDown(KeyCode.B))
         {
